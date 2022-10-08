@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import Navbar from './Navbar';
 import { withAuthenticator, Button, Heading } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 
@@ -10,8 +10,11 @@ function App({ signOut, user }) {
   return (
     <>
       {/* Add Todo JSX here  */}
-      <Heading level={1}>Hello {user.username}</Heading>
-      <Button onClick={signOut}>Sign out</Button>
+      <Navbar></Navbar>
+      <div className="content">
+        <Heading level={1}>Hello {user.username}</Heading>
+        <Button onClick={signOut}>Sign out</Button>
+      </div>
     </>
   );
 }
