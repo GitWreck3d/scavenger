@@ -7,7 +7,11 @@ export type AmplifyDependentResourcesAttributes = {
         }
     },
     "auth": {
+<<<<<<< Updated upstream
         "scavengera8be8093a8be8093": {
+=======
+        "scavenger06631177": {
+>>>>>>> Stashed changes
             "HostedUIDomain": "string",
             "OAuthMetadata": "string",
             "UserPoolId": "string",

@@ -53,5 +53,33 @@
         "scavenger06631177": {}
       }
     }
+  },
+  "dav": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-scavenger-dav-11449-authRole",
+      "UnauthRoleArn": "arn:aws:iam::909278009417:role/amplify-scavenger-dav-11449-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::909278009417:role/amplify-scavenger-dav-11449-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-scavenger-dav-11449-deployment",
+      "UnauthRoleName": "amplify-scavenger-dav-11449-unauthRole",
+      "StackName": "amplify-scavenger-dav-11449",
+      "StackId": "arn:aws:cloudformation:us-east-2:909278009417:stack/amplify-scavenger-dav-11449/f6a3e7e0-45fe-11ed-98a5-0a49de36cbec",
+      "AmplifyAppId": "d1kjuywynd8adv"
+    },
+    "categories": {
+      "auth": {
+        "scavenger06631177": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "AdminQueriesf7900f71": {
+          "deploymentBucketName": "amplify-scavenger-dav-11449-deployment",
+          "s3Key": "amplify-builds/AdminQueriesf7900f71-696f36726e5662436956-build.zip"
+        },
+        "scavenger61a09ae5": {
+          "sourceEmail": "smcken16@students.kennesaw.edu"
+        }
+      }
+    }
   }
 }

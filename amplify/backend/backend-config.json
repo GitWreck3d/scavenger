@@ -57,7 +57,35 @@
     "amplifyhosting": {
       "service": "amplifyhosting",
       "providerPlugin": "awscloudformation",
+<<<<<<< Updated upstream
       "type": "manual"
+=======
+      "build": true,
+      "dependsOn": [
+        {
+          "category": "auth",
+          "resourceName": "scavenger06631177",
+          "attributes": [
+            "UserPoolId"
+          ]
+        }
+      ]
+    },
+    "scavenger61a09ae5": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "api",
+          "resourceName": "scavenger",
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput"
+          ]
+        }
+      ]
+>>>>>>> Stashed changes
     }
   }
 }
