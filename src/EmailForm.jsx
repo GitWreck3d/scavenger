@@ -12,8 +12,8 @@ import  sesClient  from './libs/sesClient.js';
 function EmailForm(){
 
   //This is the actual form 
-  <>
-<form>
+
+<div className = 'form'>
   {/* Email Recipient */}
   <label for="recipient">To: </label>
   <input type="email" id="recipient" name="recipient" /><br /><br />
@@ -29,7 +29,6 @@ function EmailForm(){
   {/* Buttons */}
   <button id="sendEmail">Submit</button>
   <button id="cancel">Cancel</button>
-</form> 
-</>
+</div>
 }
 export default EmailForm();
