@@ -5,6 +5,8 @@ import '@aws-amplify/ui-react/styles.css';
 import CustomAuthentiator from './CustomAuthenticator';
 import Database from './Database'
 import { useState } from 'react';
+import EmailForm from './EmailForm';
+import SendEmail from './sendEmail';
 
 /* src/App.js */
 const formFields = {
@@ -31,6 +33,8 @@ function App({ signOut, user }) {
      </CustomAuthentiator>
 
       <Database />
+      <EmailForm />
+      <SendEmail />
     </>
   );
 }
